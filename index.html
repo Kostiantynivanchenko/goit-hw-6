@@ -208,7 +208,21 @@
           <h2 class="third-section-title">Our Team</h2>
           <ul class="people-pics">
             <li class="image-third-section">
-              <img src="./images/images1.jpg" width="264" alt="photo 1" />
+              <picture>
+                <source
+                  srcset="./images/images1.jpg 1x, images/img11.jpg 2x"
+                  media="(min-width:1200px)"
+                />
+                <source
+                  srcset="./images/images1.jpg 1x, images/img11.jpg 2x"
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="./images/images1.jpg 1x, images/img11.jpg 2x"
+                  media="(max-width:767px)"
+                />
+                <img src="./images/images1.jpg" width="264" alt="photo 1" />
+              </picture>
               <div class="name">
                 <h3 class="list-item-third">Mark Guerrero</h3>
                 <p class="list-item-third-paragraph">Product Designer</p>
@@ -248,7 +262,21 @@
               </div>
             </li>
             <li class="image-third-section">
-              <img src="./images/images2.jpg" width="264" alt="photo 2" />
+              <picture>
+                <source
+                  srcset="./images/images2.jpg 1x, images/img22.jpg 2x"
+                  media="(min-width:1200px)"
+                />
+                <source
+                  srcset="./images/images2.jpg 1x, images/img22.jpg 2x"
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="./images/images2.jpg 1x, images/img22.jpg 2x"
+                  media="(max-width:767px)"
+                />
+                <img src="./images/images2.jpg" width="264" alt="photo 1" />
+              </picture>
               <div class="name">
                 <h3 class="list-item-third">Tom Ford</h3>
                 <p class="list-item-third-paragraph">Frontend Developer</p>
@@ -285,7 +313,21 @@
               </div>
             </li>
             <li class="image-third-section">
-              <img src="./images/images3.jpg" width="264" alt="photo 3" />
+              <picture>
+                <source
+                  srcset="./images/images3.jpg 1x, images/img33.jpg 2x"
+                  media="(min-width:1200px)"
+                />
+                <source
+                  srcset="./images/images3.jpg 1x, images/img33.jpg 2x"
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="./images/images3.jpg 1x, images/img33.jpg 2x"
+                  media="(max-width:767px)"
+                />
+                <img src="./images/images3.jpg" width="264" alt="photo 1" />
+              </picture>
               <div class="name">
                 <h3 class="list-item-third">Camila Garcia</h3>
                 <p class="list-item-third-paragraph">Marketing</p>
@@ -323,7 +365,21 @@
               </div>
             </li>
             <li class="image-third-section">
-              <img src="./images/images4.jpg" width="264" alt="photo 4" />
+              <picture>
+                <source
+                  srcset="./images/images4.jpg 1x, images/img44.jpg 2x"
+                  media="(min-width:1200px)"
+                />
+                <source
+                  srcset="./images/images4.jpg 1x, images/img44.jpg 2x"
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="./images/images4.jpg 1x, images/img44.jpg 2x"
+                  media="(max-width:767px)"
+                />
+                <img src="./images/images4.jpg" width="264" alt="photo 1" />
+              </picture>
               <div class="name">
                 <h3 class="list-item-third">Daniel Wilson</h3>
                 <p class="list-item-third-paragraph">UI Designer</p>
@@ -371,15 +427,21 @@
               <div class="apps-img">
                 <picture>
                   <source
-                    srcset="images/images5/images5.jpg"
+                    srcset="images/images5/images5.jpg 1x, images/img(2).jpg 2x"
                     media="(min-width:1200px)"
                   />
                   <source
-                    srcset="images/images5/images-5-tab.jpg"
+                    srcset="
+                      images/images5/images-5-tab.jpg 1x,
+                      images/img(1).jpg               2x
+                    "
                     media="(min-width:768px)"
                   />
                   <source
-                    srcset="images/images5/images-5-mobile.jpg"
+                    srcset="
+                      images/images5/images-5-mobile.jpg 1x,
+                      images/img.jpg                     2x
+                    "
                     media="(max-width:767px)"
                   />
                   <img
@@ -404,15 +466,24 @@
               <div class="apps-img">
                 <picture>
                   <source
-                    srcset="images/images6/images6.jpg"
+                    srcset="
+                      images/images6/images6.jpg 1x,
+                      images/img1(2).jpg         2x
+                    "
                     media="(min-width:1200px)"
                   />
                   <source
-                    srcset="images/images6/images-6-tab.jpg"
+                    srcset="
+                      images/images6/images-6-tab.jpg 1x,
+                      images/img1(1).jpg              2x
+                    "
                     media="(min-width:768px)"
                   />
                   <source
-                    srcset="images/images6/images-6-mobile.jpg"
+                    srcset="
+                      images/images6/images-6-mobile.jpg 1x,
+                      images/img1.jpg                    2x
+                    "
                     media="(max-width:767px)"
                   />
                   <img
@@ -438,15 +509,24 @@
               <div class="apps-img">
                 <picture>
                   <source
-                    srcset="images/images7/images7.jpg"
+                    srcset="
+                      images/images7/images7.jpg 1x,
+                      images/img2(2).jpg         2x
+                    "
                     media="(min-width:1200px)"
                   />
                   <source
-                    srcset="images/images7/images-7-tab.jpg"
+                    srcset="
+                      images/images7/images-7-tab.jpg 1x,
+                      images/img2(1).jpg              2x
+                    "
                     media="(min-width:768px)"
                   />
                   <source
-                    srcset="images/images7/images-7-mobile.jpg"
+                    srcset="
+                      images/images7/images-7-mobile.jpg 1x,
+                      images/img2.jpg                    2x
+                    "
                     media="(max-width:767px)"
                   />
                   <img
@@ -471,15 +551,24 @@
               <div class="apps-img">
                 <picture>
                   <source
-                    srcset="images/images8/images8.jpg"
+                    srcset="
+                      images/images8/images8.jpg 1x,
+                      images/img3(2).jpg         2x
+                    "
                     media="(min-width:1200px)"
                   />
                   <source
-                    srcset="images/images8/images-8-tab.jpg"
+                    srcset="
+                      images/images8/images-8-tab.jpg 1x,
+                      images/img3(2).jpg              2x
+                    "
                     media="(min-width:768px)"
                   />
                   <source
-                    srcset="images/images8/images-8-mobile.jpg"
+                    srcset="
+                      images/images8/images-8-mobile.jpg 1x,
+                      images/img3.jpg                    2x
+                    "
                     media="(max-width:767px)"
                   />
                   <img
@@ -504,15 +593,24 @@
               <div class="apps-img">
                 <picture>
                   <source
-                    srcset="images/images9/images9.jpg"
+                    srcset="
+                      images/images9/images9.jpg 1x,
+                      images/img4(2).jpg         2x
+                    "
                     media="(min-width:1200px)"
                   />
                   <source
-                    srcset="images/images9/images-9-tab.jpg"
+                    srcset="
+                      images/images9/images-9-tab.jpg 1x,
+                      images/img4(1).jpg              2x
+                    "
                     media="(min-width:768px)"
                   />
                   <source
-                    srcset="images/images9/images-9-mobile.jpg"
+                    srcset="
+                      images/images9/images-9-mobile.jpg 1x,
+                      images/img4.jpg                    2x
+                    "
                     media="(max-width:767px)"
                   />
                   <img
@@ -535,24 +633,35 @@
             </li>
             <li class="apps-item">
               <div class="apps-img">
-                <source
-                  srcset="images/images10/images10.jpg"
-                  media="(min-width:1200px)"
-                />
-                <source
-                  srcset="images/images10/images-10-tab.jpg"
-                  media="(min-width:768px)"
-                />
-                <source
-                  srcset="images/images10/images-10-mobile.jpg"
-                  media="(max-width:767px)"
-                />
-                <img
-                  src="images/images10/images10.jpg"
-                  width="360"
-                  alt="photo another"
-                  class="photo-last-section"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      images/images10/images10.jpg 1x,
+                      images/img5(2).jpg           2x
+                    "
+                    media="(min-width:1200px)"
+                  />
+                  <source
+                    srcset="
+                      images/images10/images-10-tab.jpg 1x,
+                      images/img5(1).jpg                2x
+                    "
+                    media="(min-width:768px)"
+                  />
+                  <source
+                    srcset="
+                      images/images10/images-10-mobile.jpg 1x,
+                      images/img5.jpg                      2x
+                    "
+                    media="(max-width:767px)"
+                  />
+                  <img
+                    src="images/images10/images10.jpg"
+                    width="360"
+                    alt="photo another"
+                    class="photo-last-section"
+                  />
+                </picture>
                 <p class="paragraph-desccription">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
