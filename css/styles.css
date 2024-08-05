@@ -451,7 +451,7 @@ body {
 
 .first-section {
     background-color: #2e2f42;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/office-mob-2x.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/dark-bg-mobile-@1x.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -460,6 +460,15 @@ body {
     padding-top: 72px;
     padding-bottom: 72px;
     justify-content: center;
+}
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .post {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url('../images/office-mob-2x.jpg');
+    }
 }
 
 .first-container {
@@ -510,9 +519,18 @@ body {
 @media screen and (min-width: 768px) {
     .first-section {
         padding: 112px 0 112px;
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/office-tab-2x.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/dark-bg-tab-@1x.jpg);
         max-width: 768px;
     }
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            .post {
+                background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                        rgba(46, 47, 66, 0.7)),
+                    url('../images/office-tab-2x.jpg');
+            }
+        }
 
     .title-first-section {
         max-width: 496px;
@@ -528,13 +546,22 @@ body {
     .first-section {
             background-color: #2e2f42;
             padding: 188px 0 188px;
-            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/office.jpg);
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/office-img-@1x.jpg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
             max-width: 1440px;
             margin: 0 auto;
         }
+                @media (min-device-pixel-ratio: 2),
+                (min-resolution: 192dpi),
+                (min-resolution: 2dppx) {
+                    .post {
+                        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                                rgba(46, 47, 66, 0.7)),
+                            url('../images/office-img-@2x.jpg');
+                    }
+                }
     
     
     
